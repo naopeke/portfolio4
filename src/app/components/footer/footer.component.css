@@ -1,0 +1,10 @@
+.logo1, .logo2 {
+    width: 40px;
+    opacity: 0.5;
+    transition: transform 0.6s ease,filter 0.3s ease;
+}
+
+.logo1:hover, .logo2:hover{
+    opacity: 1;
+    transform: scale(1.2)
+}

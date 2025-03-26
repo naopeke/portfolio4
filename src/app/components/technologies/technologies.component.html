@@ -1,0 +1,12 @@
+<p>technologies works!</p>
+<div>
+    @for (tech of technologies; track tech.id){
+        <app-card
+        [icon]="tech.icon"
+        [title]="tech.title"
+        [description]="tech.description"
+        />
+    }
+
+
+</div>

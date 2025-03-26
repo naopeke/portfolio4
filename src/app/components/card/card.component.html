@@ -1,1 +1,11 @@
-<p>card works!</p>
+<mat-card class="card" appearance="outlined">
+    <mat-card-header>
+      <mat-card-title-group>
+        <img mat-card-sm-image src={{technologies.icon}} >
+        <mat-card-title>{{technologies.title}}</mat-card-title>
+      </mat-card-title-group>
+    </mat-card-header>
+    <mat-card-content>
+    {{technologies.description}}
+    </mat-card-content>
+  </mat-card>

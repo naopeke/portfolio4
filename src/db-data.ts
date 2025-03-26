@@ -5,7 +5,7 @@ export const TECHNOLOGIES: any = [
         id: 1,
         icon: 'assets/blog.svg',
         title:'Programming Skill',
-        description: 'TypeScript, JavaScript, HTML, CSS, SQL'
+        description: 'TypeScript, JavaScript, HTML, CSS, SASS, SQL'
     },
     {
         id: 2,

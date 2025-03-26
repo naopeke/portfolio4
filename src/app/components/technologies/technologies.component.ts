@@ -9,8 +9,5 @@ import { TECHNOLOGIES } from '../../../db-data';
   styleUrl: './technologies.component.css'
 })
 export class TechnologiesComponent {
-  technologies = [...TECHNOLOGIES];
-  tech = TECHNOLOGIES[0];
-  title = TECHNOLOGIES[0].title;
-  description = TECHNOLOGIES[0].description;
+  technologies = TECHNOLOGIES;
 }

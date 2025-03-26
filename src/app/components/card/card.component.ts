@@ -1,6 +1,5 @@
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
 import {MatCardModule} from '@angular/material/card';
-import { TECHNOLOGIES } from '../../../db-data';
 import { Technologies } from '../../model/technologies';
 
 @Component({

@@ -1,4 +1,5 @@
 import { Technologies } from "./app/model/technologies";
+import { Experiences } from "./app/model/experiences";
 
 export const TECHNOLOGIES: any = [
     {
@@ -21,3 +22,23 @@ export const TECHNOLOGIES: any = [
     }
 ]
 
+export const EXPERIENCES: any = [
+    {
+        id: 1,
+        icon: 'assets/support.svg',
+        title: 'Software Development',
+        description: 'SDLC'
+    },
+    {
+        id: 2,
+        icon: 'assets/passionate.svg',
+        title: 'BtoB Marketing',
+        description: 'Clients'
+    },
+    {
+        id: 3,
+        icon: 'assets/professional.svg',
+        title: 'Bank',
+        description: 'Communication with the customers'
+    },
+]

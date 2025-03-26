@@ -1,0 +1,15 @@
+.experience-container{
+    padding: 0 5rem;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 17rem;
+    height: 12rem;
+    margin: 16px;
+    transition: transform 0.3s ease;
+  }

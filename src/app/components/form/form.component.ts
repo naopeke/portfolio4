@@ -5,8 +5,8 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import { FormsModule } from '@angular/forms';
 import { ContactForm } from '../../model/contact';
 import emailjs, { type EmailJSResponseStatus } from '@emailjs/browser';
-import { environment } from '../../../environments/environment.development';
-// import { environment } from '../../../environments/environment';
+// import { environment } from '../../../environments/environment.development';
+import { environment } from '../../../environments/environment';
 import {MatIconModule} from '@angular/material/icon';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatButtonModule} from '@angular/material/button';
@@ -35,10 +35,10 @@ export class FormComponent {
     console.log(this.form);
 
     emailjs.send(
-      environment.YOUR_SERVICE_ID, 
-      environment.YOUR_TEMPLATE_ID, 
+      environment.emailjs.serviceId as string, 
+      environment.emailjs.templateId as string,
       {...this.form}, 
-      {publicKey: environment.YOUR_PUBLIC_KEY})
+      {publicKey: environment.emailjs.publicKey as string})
       .then(()=> {
         console.log('SUCCESS!');
       },

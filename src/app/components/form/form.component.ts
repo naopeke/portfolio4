@@ -41,6 +41,7 @@ export class FormComponent {
       {publicKey: environment.emailjs.YOUR_PUBLIC_KEY as string})
       .then(()=> {
         console.log('SUCCESS!');
+        this.openSnackBar();
       },
       (error)=>{
         console.log('FAILED...', (error as EmailJSResponseStatus).text);

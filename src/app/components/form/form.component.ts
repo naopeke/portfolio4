@@ -35,10 +35,10 @@ export class FormComponent {
     console.log(this.form);
 
     emailjs.send(
-      environment.emailjs.serviceId as string, 
-      environment.emailjs.templateId as string,
+      environment.emailjs.YOUR_SERVICE_ID as string, 
+      environment.emailjs.YOUR_TEMPLATE_ID as string,
       {...this.form}, 
-      {publicKey: environment.emailjs.publicKey as string})
+      {publicKey: environment.emailjs.YOUR_PUBLIC_KEY as string})
       .then(()=> {
         console.log('SUCCESS!');
       },

@@ -1,8 +1,8 @@
 export const environment = {
     production: false,
     emailjs: {
-        serviceId: process.env['NG_APP_YOUR_SERVICE_ID'],
-        templateId: process.env['NG_APP_YOUR_TEMPLATE_ID'],
-        publicKey: process.env['NG_APP_YOUR_PUBLIC_KEY'],
+        YOUR_SERVICE_ID: 'service_m4hbv2e',
+        YOUR_TEMPLATE_ID: 'template_ys9k3tr',
+        YOUR_PUBLIC_KEY: 'c8VxDT34Qj4HpO4VF',
     }
 };

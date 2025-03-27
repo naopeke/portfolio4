@@ -9,6 +9,11 @@
 }
 
 @media (max-width: 962px) {
+
+.experience-container {
+    margin-top: 5rem;
+}
+
 .card-container {
     flex-direction: column;
     align-items: center;

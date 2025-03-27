@@ -1,17 +1,19 @@
 <div class="form-container">
-    <mat-form-field>
-        <mat-label>Name</mat-label>
-        <input matInput [(ngModel)]="form.name" required>
-    </mat-form-field>
-    <mat-form-field>
-        <mat-label>Email</mat-label>
-        <input matInput [(ngModel)]="form.email" required>
-    </mat-form-field>
-    <mat-form-field>
-        <mat-label>Message</mat-label>
-        <textarea matInput [(ngModel)]="form.message" required></textarea>
-    </mat-form-field>
-    <button mat-flat-button (click)="send()" (click)="openSnackBar()" class="button">Send</button>
+    <div class="form-border">
+        <mat-form-field>
+            <mat-label>Name</mat-label>
+            <input matInput [(ngModel)]="form.name" required>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Email</mat-label>
+            <input matInput [(ngModel)]="form.email" required>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Message</mat-label>
+            <textarea matInput [(ngModel)]="form.message" required></textarea>
+        </mat-form-field>
+        <button mat-flat-button (click)="send()" (click)="openSnackBar()" class="button">Send</button>
+    </div>
 </div>
 
     <!-- <input type="text" placeholder="Name" [(ngModel)]="form.name">

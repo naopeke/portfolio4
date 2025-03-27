@@ -19,3 +19,9 @@
 .description {
     text-align: justify;
 }
+
+@media (max-width: 962px) {
+.card {
+    margin: 0;
+}
+    }

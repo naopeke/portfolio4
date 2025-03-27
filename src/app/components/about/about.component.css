@@ -25,18 +25,43 @@
 
 @media (max-width: 813px) {
     .about-container {
+        /* border: 2px solid black; */
         flex-direction: column;
         align-items: center;
-        padding: 0 1rem;
+        padding: 0;
     }
+
+    .right-container {
+        /* border: 2px solid black; */
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-container {
+        /* border: 2px solid black; */
+        margin: 0;
+        padding: 0;
+    }
+
     .persona {
         width: 15rem;
-        padding: 0 5rem;
+        padding: 0;
+        margin:0;
     }
+
+    .message{
+        margin:0;
+        padding:1rem;
+    }
+
     }
     
 @media (max-width: 480px) {
 .persona {
-    height: 10rem; /* 高さを少し縮小 */
+    width: 8rem;
 }
     }

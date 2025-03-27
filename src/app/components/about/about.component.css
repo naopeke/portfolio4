@@ -2,21 +2,40 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1em;
     width: 100%;
 }
 
 .left-container {
-    padding-left: 5em;
     width: 50%;
 }
 
 .right-container {
-    padding: 0 5em;
     width: 50%;
+}
+
+.message {
+    padding: 0 5rem
 }
 
 .persona {
     width: 20rem;
     max-width: 100%;
 }
+
+@media (max-width: 813px) {
+    .about-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 1rem;
+    }
+    .persona {
+        width: 15rem;
+        padding: 0 5rem;
+    }
+    }
+    
+@media (max-width: 480px) {
+.persona {
+    height: 10rem; /* 高さを少し縮小 */
+}
+    }

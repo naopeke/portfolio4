@@ -38,7 +38,7 @@ export const EXPERIENCES: any = [
     {
         id: 3,
         icon: 'assets/professional.svg',
-        title: 'Bank',
-        description: 'Communication with the customers'
+        title: 'BtoC',
+        description: 'Working experience in a bank. Communication with the customers'
     },
 ]

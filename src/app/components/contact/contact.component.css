@@ -1,0 +1,33 @@
+.contact-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 5rem;
+}
+
+.left-container{
+    /* border: 2px solid black; */
+    width:100%;
+    justify-content: flex-start;
+}
+
+.right-container{
+    /* border: 2px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.title {
+    padding-left: 0;
+}
+
+.message {
+    padding-left: 5rem;
+}
+
+.form {
+    padding-left: 3rem;
+    margin-top:3rem;
+    margin-left: 3rem;
+}

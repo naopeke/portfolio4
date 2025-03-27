@@ -1,0 +1,20 @@
+<div class="form-container">
+    <mat-form-field>
+        <mat-label>Name</mat-label>
+        <input matInput [(ngModel)]="form.name">
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>Email</mat-label>
+        <input matInput [(ngModel)]="form.email">
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>Textarea</mat-label>
+        <textarea matInput [(ngModel)]="form.message"></textarea>
+    </mat-form-field>
+    <button mat-flat-button (click)="send()" (click)="openSnackBar()" class="button">Send</button>
+</div>
+
+    <!-- <input type="text" placeholder="Name" [(ngModel)]="form.name">
+    <input type="email" placeholder="Email" [(ngModel)]="form.email">
+    <textarea placeholder="message" [(ngModel)]="form.message"></textarea>
+    <button (click)="send()">Send</button> -->

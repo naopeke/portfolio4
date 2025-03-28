@@ -3,7 +3,20 @@
     flex-direction: row;
     justify-content: space-evenly;
     margin-bottom: 5rem;
-    background-color: rgb(236, 236, 255);
+    /* background: linear-gradient(to right, 
+    transparent calc(50% - 0.5px), 
+    #e0e0e0 calc(50% - 0.5px), 
+    #e0e0e0 calc(50% + 0.5px), 
+    transparent calc(50% + 0.5px)); */
+    background-image: linear-gradient(to right, 
+    transparent calc(50% - 0.5px), 
+    #e0e0e0 calc(50% - 0.5px), 
+    #e0e0e0 calc(50% + 0.5px), 
+    transparent calc(50% + 0.5px));
+  background-size: 100% 83%; /* 高さをコンテナの50%に */
+  background-position: center;
+  background-repeat: no-repeat;
+
 }
 
 .left-container{
@@ -17,15 +30,40 @@
     width: 100%;
     display: flex;
     justify-content: flex-start;
+    height: 100%;
 }
 
 .title {
     padding-left: 5rem;
 }
 
-.message {
+.message-container {
+    /* height: 100%; */
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    padding-top: 4rem;
+}
+
+.message-container_2 {
+    /* border: 2px solid orange; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
     padding-left: 5rem;
+}
+
+.message {
+    /* padding-left: 5rem; */
+    padding: 2rem;
+    width: 70%;
     text-align: justify;
+    line-height: 1;
+    background-color:#004481;;
+    color:azure;
+    max-width: 451px;
+    font-weight: 180;
+    font-size: larger;
     /* border: 2px solid black; */
 }
 
@@ -36,11 +74,19 @@
     margin-bottom: 3rem;
 }
 
+@media (max-width: 961px){
+    .message-container{
+        padding-top:0;
+    }
+
+}
+
 @media (max-width: 813px) {
     .contact-container {
         flex-direction: column;
         align-items: center;
         padding: 0 1rem;
+        background: none;
     }
 
     .right-container{

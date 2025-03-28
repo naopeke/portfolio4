@@ -12,6 +12,18 @@
     border: 2px solid rgb(201, 197, 197);
     border-radius: 3%;
     padding: 3rem;
+    background-color: #fff;
+}
+
+.form-field {
+  /* border: 2px solid black; */
+  width: 18rem;
+}
+
+.form-field-message {
+  /* border: 2px solid black; */
+  width: 18rem;
+  height: 10rem;
 }
 
 .field {

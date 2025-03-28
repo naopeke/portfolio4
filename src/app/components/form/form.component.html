@@ -1,14 +1,14 @@
 <div class="form-container">
     <div class="form-border">
-        <mat-form-field>
+        <mat-form-field class="form-field">
             <mat-label>Name</mat-label>
             <input matInput [(ngModel)]="form.name" required>
         </mat-form-field>
-        <mat-form-field>
+        <mat-form-field class="form-field">
             <mat-label>Email</mat-label>
             <input matInput [(ngModel)]="form.email" required>
         </mat-form-field>
-        <mat-form-field>
+        <mat-form-field class="form-field-message">
             <mat-label>Message</mat-label>
             <textarea matInput [(ngModel)]="form.message" required></textarea>
         </mat-form-field>

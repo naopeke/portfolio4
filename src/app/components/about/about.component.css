@@ -10,7 +10,10 @@
 }
 
 .right-container {
+    /* border: 2px solid black; */
     width: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 .message {
@@ -48,7 +51,7 @@
     }
 
     .persona {
-        width: 15rem;
+        width: 10rem;
         padding: 0;
         margin:0;
     }
@@ -64,4 +67,6 @@
 .persona {
     width: 8rem;
 }
+
+
     }

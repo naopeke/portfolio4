@@ -59,8 +59,6 @@
     width: 70%;
     text-align: justify;
     line-height: 1;
-    background-color:#004481;;
-    color:azure;
     max-width: 451px;
     font-weight: 180;
     font-size: larger;
@@ -78,7 +76,6 @@
     .message-container{
         padding-top:0;
     }
-
 }
 
 @media (max-width: 813px) {
@@ -106,5 +103,22 @@
         padding: 0;
         margin: 0;
     }
+    
     }
+
+@media (max-width: 480px){
+    .message-container_2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .message {
+        padding: 1rem;
+        font-size: 15px;
+        line-height: 1.3;
+    }
+}
     

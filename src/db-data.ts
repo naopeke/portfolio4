@@ -7,7 +7,7 @@ export const TECHNOLOGIES: any = [
         icon: 'assets/blog.svg',
         title:'Programming Skill',
         subtitle:'Programming Languages',
-        description: 'TypeScript, JavaScript, HTML, CSS, SASS, SQL'
+        description: 'TypeScript, JavaScript, HTML, CSS, SASS, SQL, Python'
     },
     {
         id: 2,
@@ -21,7 +21,7 @@ export const TECHNOLOGIES: any = [
         icon: 'assets/building.svg',
         title: 'Tools',
         subtitle: 'Issue Tracking & Test Management',
-        description: 'Jira, Xray, TestRail, Postman, Android Studio'
+        description: 'Jira, Xray, TestRail, Azure DevOps, Postman, Android Studio, Appium'
     }
 ]
 

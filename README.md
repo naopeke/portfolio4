@@ -1,7 +1,8 @@
-# Portfolio with Angular 19
+# Portfolio with Angular 20  (Updated 2026-01-13)
 ![alt text](<Captura desde 2025-03-27 13-19-54.png>)
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.6.
+Now updated to version 20.
 
 ## Development server
 

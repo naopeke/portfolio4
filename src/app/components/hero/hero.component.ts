@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild, ElementRef, AfterViewInit } from '@angular/core';
 import {MatIconModule} from '@angular/material/icon';
 
 
@@ -10,4 +10,9 @@ import {MatIconModule} from '@angular/material/icon';
 })
 export class HeroComponent {
 
+  @ViewChild('heroTitle') heroTitle!: ElementRef<HTMLHeadElement>;
+
+  focusTitle(){
+    this.heroTitle.nativeElement.focus();
+  }
 }

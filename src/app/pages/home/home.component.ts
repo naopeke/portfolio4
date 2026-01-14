@@ -24,11 +24,11 @@ export class HomeComponent {
 
   scrollToSection(sectionId: string) {
     const section = this.sections.find(s => s.nativeElement.id === sectionId);
-    section?.nativeElement.scrollIntoView({ 
+    if(section) {
+      section.nativeElement.scrollIntoView({ 
       behavior: 'smooth', 
-      block: 'start' 
-    });
-    console.log('trying to scroll')
+      block: 'start'});
+      section.nativeElement.focus();
+    }
   }
-
 }

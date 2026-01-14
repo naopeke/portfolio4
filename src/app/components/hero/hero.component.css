@@ -6,10 +6,6 @@
     padding: 1em;
 }
 
-/* .left-container, .right-container {
-    flex: 1
-} */
-
 .left-container{
     margin-left: 5em;
 }
@@ -25,6 +21,10 @@
 
 .title {
     font-size: 2rem;
+}
+
+.comment {
+    font-size: 1.4rem;
 }
 
 @media (max-width: 813px) {

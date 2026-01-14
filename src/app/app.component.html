@@ -1,7 +1,18 @@
+<nav 
+    class="skip-links"
+    aria-label="Skip links"
+    [class.is-visible]="showSkipLinks">
+    <a href="#about">Skip to About me</a>
+    <a href="#experience">Skip to My experience</a>
+    <a href="#contact">Skip to Contact me</a>
+</nav>
+
 <app-header/>
+
 <main class="main">
 <app-home/>
 </main>
+
 <app-footer/>
 
 <router-outlet />

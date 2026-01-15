@@ -1,8 +1,9 @@
 # Portfolio with Angular 20  (Updated 2026-01-13)
-![alt text](<Captura desde 2025-03-27 13-19-54.png>)
+<img width="968" height="626" alt="Captura desde 2026-01-15 10-23-10" src="https://github.com/user-attachments/assets/36343470-c172-4600-9e2f-97c8d4efcbd2" />
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.6.
 Now updated to version 20.
+Implemented WCAG guidelines (tab, heading, focus visible, font-size: > 1rem, line-height 1.5-1.8).
 
 ## Development server
 

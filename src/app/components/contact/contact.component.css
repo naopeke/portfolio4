@@ -2,12 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-bottom: 5rem;
-    /* background: linear-gradient(to right, 
-    transparent calc(50% - 0.5px), 
-    #e0e0e0 calc(50% - 0.5px), 
-    #e0e0e0 calc(50% + 0.5px), 
-    transparent calc(50% + 0.5px)); */
+    padding: 3rem 10rem;
     background-image: linear-gradient(to right, 
     transparent calc(50% - 0.5px), 
     #e0e0e0 calc(50% - 0.5px), 
@@ -20,49 +15,43 @@
 }
 
 .left-container{
-    /* border: 2px solid black; */
     width:100%;
     justify-content: flex-start;
 }
 
 .right-container{
-    /* border: 2px solid black; */
     width: 100%;
     display: flex;
     justify-content: flex-start;
     height: 100%;
 }
 
-.title {
-    padding-left: 5rem;
+.contact-title {
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
 }
 
 .message-container {
-    /* height: 100%; */
-    /* border: 2px solid red; */
     display: flex;
     align-items: center;
     padding-top: 4rem;
 }
 
 .message-container_2 {
-    /* border: 2px solid orange; */
     width: 100%;
     display: flex;
     justify-content: center;
-    padding-left: 5rem;
 }
 
 .message {
-    /* padding-left: 5rem; */
     padding: 2rem;
     width: 70%;
     text-align: justify;
-    line-height: 1;
+    line-height: 1.6;
     max-width: 451px;
-    font-weight: 180;
+    font-weight: 400;
     font-size: larger;
-    /* border: 2px solid black; */
 }
 
 .form {

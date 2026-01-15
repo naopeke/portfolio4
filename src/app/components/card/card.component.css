@@ -1,12 +1,6 @@
-/* .card {
-    max-width: 400px;
-    margin-bottom: 8px;
-  }
-   */
-
 .card {
-  width: 17rem;
-  height: 15rem;
+  width: 28rem;
+  height: 19rem;
   margin: 16px;
   transition: transform 0.3s ease;
   background: none;
@@ -23,4 +17,13 @@
 
 .title-group {
   margin-bottom: 1rem;
+}
+
+.tech-subtitle {
+ font-size: 1.3rem;
+}
+
+.tech-description {
+ font-size: 1.25rem;
+ line-height: 1.5;
 }

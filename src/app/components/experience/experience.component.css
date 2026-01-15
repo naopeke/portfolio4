@@ -1,11 +1,16 @@
 .card-container{
     display: flex;
-    justify-content: space-evenly;
-    padding: 0 5rem;
+    gap: 0 3rem;
 }
 
 .title {
-    padding-left: 5rem;
+    padding: 0;
+    margin:0;
+    font-size: 2rem;
+}
+
+.experience-container {
+    padding: 3rem 10rem;
 }
 
 @media (max-width: 962px) {

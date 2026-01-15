@@ -2,11 +2,11 @@
     <mat-card-header>
       <mat-card-title-group class="title-group">
         <mat-card-title><h3>{{technologies.title}}</h3></mat-card-title>
-        <mat-card-subtitle>{{technologies.subtitle}}</mat-card-subtitle>
+        <mat-card-subtitle><p class="tech-subtitle">{{technologies.subtitle}}</p></mat-card-subtitle>
         <img mat-card-sm-image src={{technologies.icon}} class="icon" >
       </mat-card-title-group>
     </mat-card-header>
     <mat-card-content>
-    {{technologies.description}}
+      <p class="tech-description">{{technologies.description}}</p>
     </mat-card-content>
   </mat-card>
